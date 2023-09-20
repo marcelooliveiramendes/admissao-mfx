@@ -1,0 +1,29 @@
+.container{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+
+    h2{
+        color: #5c5c5c;
+    }
+
+}
+#btnVoltarHome{
+    width: 100vw;
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+
+    button{
+        width: 80%;
+        height: 60px;
+        border-radius: 30px;
+        background-color: #9747FF;
+        border: none;
+        color: #fff;
+        font-size: 18px;
+    }
+}
